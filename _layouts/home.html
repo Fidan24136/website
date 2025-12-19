@@ -1,0 +1,59 @@
+---
+layout: default
+---
+<section class="hero">
+    <div class="hero-container">
+        <div class="hero-content">
+            <p class="hero-greeting">HEY THERE!</p>
+            <h1 class="hero-name">I AM {{ site.name | default: 'YOUR NAME' | upcase }}</h1>
+            <p class="hero-title">{{ site.title_role | default: 'CREATIVE DEVELOPER & DESIGNER' }}</p>
+            <div class="social-icons">
+                <a href="{{ site.github_url }}" target="_blank" aria-label="GitHub">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="{{ site.codecademy_url }}" target="_blank" aria-label="Codecademy">
+                    <i class="fas fa-graduation-cap"></i>
+                </a>
+                {% if site.linkedin_url %}
+                <a href="{{ site.linkedin_url }}" target="_blank" aria-label="LinkedIn">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                {% endif %}
+            </div>
+            <a href="#about" class="cta-button">SEE MY WORK</a>
+        </div>
+        <div class="hero-image">
+            <div class="hero-bg-gradient"></div>
+            {% if site.profile_image %}
+            <img src="{{ site.profile_image | relative_url }}" alt="{{ site.name }}" class="profile-photo">
+            {% else %}
+            <div class="profile-placeholder">
+                <i class="fas fa-user"></i>
+            </div>
+            {% endif %}
+        </div>
+    </div>
+    <div class="hero-stats">
+        <div class="stat-card">
+            <span class="stat-number">{{ site.stats.projects | default: '10+' }}</span>
+            <span class="stat-label">Projects</span>
+        </div>
+        <div class="stat-card">
+            <span class="stat-number">{{ site.stats.experience | default: '5+' }}</span>
+            <span class="stat-label">Years Experience</span>
+        </div>
+        <div class="stat-card">
+            <span class="stat-number">{{ site.stats.rating | default: '9/10' }}</span>
+            <span class="stat-label">Average Rating</span>
+        </div>
+    </div>
+</section>
+
+<section class="about-preview" id="about">
+    <div class="container">
+        <h2>ABOUT ME</h2>
+        <p>{{ site.description | default: 'A passionate developer and designer creating amazing digital experiences.' }}</p>
+        <a href="/about/" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+    </div>
+</section>
+

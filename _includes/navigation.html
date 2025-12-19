@@ -1,0 +1,38 @@
+<nav class="navbar">
+    <div class="nav-container">
+        <div class="nav-logo">
+            <a href="{{ '/' | relative_url }}">
+                <span class="logo-icon">{{ site.logo_icon | default: 'F' }}</span>
+                <span class="logo-text">{{ site.logo_text | default: 'IDAN' }}</span>
+            </a>
+        </div>
+        <ul class="nav-menu" id="nav-menu">
+            <li><a href="{{ '/' | relative_url }}" class="{% if page.url == '/' %}active{% endif %}">HOME</a></li>
+            <li><a href="{{ '/about/' | relative_url }}" class="{% if page.url == '/about/' %}active{% endif %}">ABOUT</a></li>
+            <li><a href="{{ '/projects/' | relative_url }}" class="{% if page.url == '/projects/' %}active{% endif %}">PROJECTS</a></li>
+            {% if site.resume_url %}
+            <li><a href="{{ site.resume_url }}" target="_blank">RESUME</a></li>
+            {% endif %}
+        </ul>
+        <div class="nav-toggle" id="nav-toggle">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+</nav>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const navToggle = document.getElementById('nav-toggle');
+    const navMenu = document.getElementById('nav-menu');
+    
+    if (navToggle) {
+        navToggle.addEventListener('click', function() {
+            navMenu.classList.toggle('active');
+            navToggle.classList.toggle('active');
+        });
+    }
+});
+</script>
+

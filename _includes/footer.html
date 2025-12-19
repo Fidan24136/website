@@ -1,0 +1,44 @@
+<footer class="footer">
+    <div class="footer-container">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>{{ site.name | default: 'Your Name' }}</h3>
+                <p>{{ site.footer_description | default: 'Creating amazing digital experiences.' }}</p>
+            </div>
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="{{ '/' | relative_url }}">Home</a></li>
+                    <li><a href="{{ '/about/' | relative_url }}">About</a></li>
+                    <li><a href="{{ '/projects/' | relative_url }}">Projects</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Connect</h4>
+                <div class="footer-social">
+                    <a href="{{ site.github_url }}" target="_blank" aria-label="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="{{ site.codecademy_url }}" target="_blank" aria-label="Codecademy">
+                        <i class="fas fa-graduation-cap"></i>
+                    </a>
+                    {% if site.linkedin_url %}
+                    <a href="{{ site.linkedin_url }}" target="_blank" aria-label="LinkedIn">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    {% endif %}
+                </div>
+            </div>
+            <div class="footer-section">
+                <h4>Repository</h4>
+                <a href="{{ site.repository_url }}" target="_blank" class="repo-link">
+                    <i class="fab fa-github"></i> View Source Code
+                </a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; {{ 'now' | date: "%Y" }} {{ site.name | default: 'Your Name' }}. All rights reserved.</p>
+        </div>
+    </div>
+</footer>
+
