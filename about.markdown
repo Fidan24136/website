@@ -6,32 +6,30 @@ permalink: /about/
 
 ## Background
 
-Welcome! I'm a passionate developer and designer with a strong foundation in web development and software engineering. My journey in technology has been driven by curiosity and a desire to create meaningful digital experiences.
+Welcome! I'm Fidan Imanzada, a student currently pursuing a BSEEE (Bachelor of Science in Electrical and Electronics Engineering) at ADA University. I am passionate about learning and interested in developing my skills in technology and engineering.
 
 ## Qualifications
 
-- **Education**: [Your degree/education background]
-- **Skills**: Web Development, UI/UX Design, Frontend & Backend Development
-- **Technologies**: HTML, CSS, JavaScript, React, Node.js, and more
-- **Certifications**: [Any relevant certifications]
+- **Education**: BSEEE, ADA University
+- **Technologies**: Currently learning
+- **Certifications**: None yet
 
 ## Activities & Experience
 
-Throughout my journey, I've been involved in various projects and activities:
+Throughout my journey, I've been involved in various activities and projects:
 
-- **Web Development Projects**: Creating responsive and modern web applications
-- **Design Work**: Developing user-friendly interfaces with attention to detail
-- **Continuous Learning**: Staying updated with the latest technologies and best practices
-- **Collaboration**: Working in teams to deliver high-quality solutions
+- **Developing strong problem-solving and teamwork abilities**: Working on projects that challenge me to think critically and collaborate effectively
+- **Continuous Learning**: Continuously learning to improve my skills and stay updated with the latest developments in technology and engineering
+- **Practical Projects**: Engaging in hands-on projects that combine theoretical knowledge with real-world applications
 
-## What I Do
+## Future Goals
 
-I specialize in creating beautiful, functional, and user-centered digital solutions. Whether it's building a website from scratch or enhancing existing applications, I bring creativity and technical expertise to every project.
+I plan to continue improving my knowledge in Electrical and Electronics Engineering, gain practical experience, and build a successful career in technology. My focus is on developing expertise in both hardware and software aspects of engineering, with a particular interest in how technology can solve real-world problems.
 
 My approach combines:
-- Clean, modular code
-- Responsive design principles
-- User experience best practices
-- Modern development workflows
+- Strong foundation in electrical and electronics engineering principles
+- Continuous skill development and learning
+- Problem-solving and analytical thinking
+- Teamwork and collaboration
 
 Feel free to explore my projects to see examples of my work!
