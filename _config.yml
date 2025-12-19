@@ -23,8 +23,8 @@ name: Fidan
 email: your-email@example.com
 description: >-
   A passionate developer and designer creating amazing digital experiences.
-baseurl: "https://fidan24136.github.io" # the subpath of your site, e.g. /blog
-url: "/website" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/website" # the subpath of your site (repository name)
+url: "https://fidan24136.github.io" # the base hostname & protocol for your site
 
 # Social Links
 github_username: Fidan24136

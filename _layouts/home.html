@@ -53,7 +53,7 @@ layout: default
     <div class="container">
         <h2>ABOUT ME</h2>
         <p>{{ site.description | default: 'A passionate developer and designer creating amazing digital experiences.' }}</p>
-        <a href="/about/" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+        <a href="{{ '/about/' | relative_url }}" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
     </div>
 </section>
 
