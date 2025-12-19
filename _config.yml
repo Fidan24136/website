@@ -23,14 +23,14 @@ name: Fidan
 email: your-email@example.com
 description: >-
   A passionate developer and designer creating amazing digital experiences.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "https://fidan24136.github.io" # the subpath of your site, e.g. /blog
+url: "/website" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Social Links
-github_username: yourusername
-github_url: https://github.com/yourusername
-codecademy_url: https://www.codecademy.com/profiles/yourusername
-repository_url: https://github.com/yourusername/website_Fidan
+github_username: Fidan24136
+github_url: https://github.com/Fidan24136
+codecademy_url: https://www.codecademy.com/profiles/Fidan24136
+repository_url: https://github.com/Fidan24136/website
 
 # Profile
 title_role: CREATIVE DEVELOPER & DESIGNER

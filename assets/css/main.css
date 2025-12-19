@@ -549,11 +549,11 @@ body.loaded {
 
 .project-photo img {
     width: 100%;
-    height: auto;
+    height: 400px;
     display: block;
     transition: transform 0.4s;
-    min-height: 400px;
     object-fit: cover;
+    object-position: center;
 }
 
 .project-photo:hover img {
@@ -562,7 +562,7 @@ body.loaded {
 
 .photo-placeholder {
     width: 100%;
-    min-height: 400px;
+    height: 400px;
     background: var(--gradient-orange-yellow);
     display: flex;
     align-items: center;
@@ -810,11 +810,11 @@ body.loaded {
     }
     
     .project-photo img {
-        min-height: 300px;
+        height: 300px;
     }
     
     .photo-placeholder {
-        min-height: 300px;
+        height: 300px;
     }
     
     .footer-content {
